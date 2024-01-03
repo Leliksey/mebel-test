@@ -1,0 +1,135 @@
+2023-12-28 11:25:50 - PHP Notice:  Undefined index: code in F:\OSPanel\domains\mebel\admin\model\design\layout.php on line 38
+2023-12-29 9:59:20 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 9:59:20 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 9:59:20 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 9:59:20 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 9:59:20 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 9:59:20 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 9:59:20 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 9:59:20 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:00:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:00:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:00:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:00:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:00:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:00:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:00:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:00:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:09:40 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:10:32 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: result in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Trying to access array offset on value of type null in F:\OSPanel\domains\mebel\catalog\controller\extension\module\category.php on line 72
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:14:22 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:16:14 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:16:14 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:16:14 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:16:14 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:16:14 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:16:14 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:16:14 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:16:14 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:20:06 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:20:06 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:20:06 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:20:06 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:20:06 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:20:06 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:20:06 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:20:06 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:40:02 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:40:02 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:40:02 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:40:02 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:40:02 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:40:02 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:40:02 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:40:02 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:56:44 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:56:44 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:56:44 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:56:44 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:56:44 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:56:44 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:56:44 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 10:56:44 - PHP Notice:  Undefined variable: image in F:\OSPanel\domains\mebel\catalog\controller\common\menu.php on line 45
+2023-12-29 12:35:08 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:36:38 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:38:51 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:39:34 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:40:39 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:40:54 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:42:01 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:43:42 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:44:05 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:47:03 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:48:16 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:48:59 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2023-12-29 12:49:46 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-03 10:37:40 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35

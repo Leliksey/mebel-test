@@ -1,0 +1,1030 @@
+{{ header }}
+<div id="common-home" class="container">
+	<div class="row">{{ column_left }}
+		{% if column_left and column_right %}
+			{% set class = 'col-sm-6' %}
+		{% elseif column_left or column_right %}
+			{% set class = 'col-sm-9' %}
+		{% else %}
+			{% set class = 'col-sm-12' %}
+		{% endif %}
+		<div id="content" class="{{ class }}">{{ content_top }}{{ content_bottom }}</div>
+		{{ column_right }}</div>
+</div>
+{# <section class="main">
+			<div class="container">
+				<div class="main__content">
+					<div class="main__action hide">
+						<button class="button main__action-button main__action-button_green">
+							<img src="catalog/view/theme/mebel/assets/images/phone.png" alt="">
+							<span>Позвонить</span>
+						</button>
+						<button class="button main__action-button main__action-button_violet">
+							<img src="catalog/view/theme/mebel/assets/images/viber.png" alt="">
+							<span>Viber - чат</span>
+						</button>
+					</div>
+					<div class="banners__top">
+						<div class="banners__slider owl-carousel">
+							<div class="banners__item banners__slider1">
+								<div class="banners__slider1__subtitle">Новый взгляд на кухню</div>
+								<div class="banners__slider1__title">Киевская<br>
+									мебельная фабрика</div>
+								<div class="banners__slider1__image">
+									<img src="catalog/view/theme/mebel/assets/images/ground.png" alt="">
+								</div>
+								<div class="banners__slider1__text">Скидка на линейку кухонь 2022 года</div>
+								<a href="category.html" class="custom-button main__custom-button">Купить</a>
+								<img src="catalog/view/theme/mebel/assets/images/kitchen.png" alt="" class="slider1_bg">
+							</div>
+							<div class="banners__item banners__slider1">
+								<div class="banners__slider1__subtitle">Новый взгляд на кухню</div>
+								<div class="banners__slider1__title">Киевская<br>
+									мебельная фабрика</div>
+								<div class="banners__slider1__image">
+									<img src="catalog/view/theme/mebel/assets/images/ground.png" alt="">
+								</div>
+								<div class="banners__slider1__text">Скидка на линейку кухонь 2022 года</div>
+								<button class="custom-button main__custom-button">Купить</button>
+								<img src="catalog/view/theme/mebel/assets/images/kitchen.png" alt="" class="slider1_bg">
+							</div>
+							<div class="banners__item banners__slider1">
+								<div class="banners__slider1__subtitle">Новый взгляд на кухню</div>
+								<div class="banners__slider1__title">Киевская<br>
+									мебельная фабрика</div>
+								<div class="banners__slider1__image">
+									<img src="catalog/view/theme/mebel/assets/images/ground.png" alt="">
+								</div>
+								<div class="banners__slider1__text">Скидка на линейку кухонь 2022 года</div>
+								<button class="custom-button main__custom-button">Купить</button>
+								<img src="catalog/view/theme/mebel/assets/images/kitchen.png" alt="" class="slider1_bg">
+							</div>
+
+						</div>
+						<div class="banners__static">
+							<div class="banners__static_mask">
+								<img src="catalog/view/theme/mebel/assets/images/mask.png" alt="">
+								<div class="banners__static_info">
+									<span>под</span>
+									<span>0</span>
+									<span>%</span>
+								</div>
+							</div>
+							<div class="banners__static_title">Рассрочка</div>
+							<div class="banners__static_image">
+								<img src="catalog/view/theme/mebel/assets/images/ground.png" alt="">
+							</div>
+							<button class="custom-button banners__static__custom-button">
+								Подробнее
+							</button>
+						</div>
+					</div>
+					<div class="main__example hide">
+						<ul class="main__example-list">
+							<li class="main__example-item">
+								<a href="" class="main__example-link">
+									<img src="catalog/view/theme/mebel/assets/images/tkan.png" alt="">
+									<span>Образцы тканей</span>
+								</a>
+							</li>
+							<li class="main__example-item">
+								<a href="" class="main__example-link">
+									<img src="catalog/view/theme/mebel/assets/images/material.png" alt="">
+									<span>Образцы материалов</span>
+								</a>
+							</li>
+							<li class="main__example-item">
+								<a href="" class="main__example-link">
+									<img src="catalog/view/theme/mebel/assets/images/napolnitel.png" alt="">
+									<span>Образцы наполнителя</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main__bottom_mobile hide">
+				<div class="main__bottom_mobile-title">Рассрочка платежей на весь ассортимент</div>
+				<div class="banners__static_info">
+					<span>под</span>
+					<span>0</span>
+					<span>%</span>
+				</div>
+			</div>
+		</section>
+		<section class="service">
+			<div class="container">
+				<div class="service__content">
+					<ul class="service__list">
+						<li class="service__item">
+							<img src="catalog/view/theme/mebel/assets/images/delivery.png" alt="">
+							<div class="service__item-group">
+								<div class="service__item-title">Доставка</div>
+								<div class="service__item-description">Доставка по всей Украине</div>
+							</div>
+						</li>
+						<li class="service__item">
+							<img src="catalog/view/theme/mebel/assets/images/shield.png" alt="">
+							<div class="service__item-group">
+								<div class="service__item-title">Гарантия</div>
+								<div class="service__item-description">На весь товар 18 месяцев</div>
+							</div>
+						</li>
+						<li class="service__item">
+							<img src="catalog/view/theme/mebel/assets/images/wallet.png" alt="">
+							<div class="service__item-group">
+								<div class="service__item-title">Кредит/Рассрочка</div>
+								<div class="service__item-description">Работаем с популярными банками</div>
+							</div>
+						</li>
+						<li class="service__item">
+							<img src="catalog/view/theme/mebel/assets/images/headphone.png" alt="">
+							<div class="service__item-group">
+								<div class="service__item-title">Сервис</div>
+								<div class="service__item-description">Мебель под заказ</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="popular">
+			<div class="container">
+				<div class="sectionTitle">Трендовые товары</div>
+				<div class="popular__content">
+					<aside class="popular__aside">
+						<ul class="popular__aside-list">
+							<li class="popular__aside-item active">
+								<a href="#" class="popular__aside-link">Новинки</a>
+							</li>
+							<li class="popular__aside-item">
+								<a href="#" class="popular__aside-link">Акции</a>
+							</li>
+							<li class="popular__aside-item">
+								<a href="#" class="popular__aside-link">Распродажа</a>
+							</li>
+						</ul>
+						<div class="popular__aside-nav">
+							<span class="active"></span>
+							<span></span>
+							<span></span>
+						</div>
+					</aside>
+					<div class="products__popular">
+						<div class="popular__tab-item carousel1">
+							<div class="product">
+								<div class="product__label product__label_new">New</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product1.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Dining chairs</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">100 UAH</div>
+									<div class="product__price_old">120 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_sale">Sale</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product2.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Minimal iconic chair</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">12000 UAH</div>
+									<div class="product__price_old">150000 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_sale">Sale</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product3.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Buskbo armchair</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">130 UAH</div>
+									<div class="product__price_old">190 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_new">New</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product1.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Dining chairs</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">100 UAH</div>
+									<div class="product__price_old">120 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_sale">Sale</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product2.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Minimal iconic chair</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">12000 UAH</div>
+									<div class="product__price_old">150000 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_sale">Sale</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product3.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Buskbo armchair</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">130 UAH</div>
+									<div class="product__price_old">190 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="popular__tab-item carousel2 hide">
+							<div class="product">
+								<div class="product__label product__label_new">New</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product1.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Dining chairs2</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">100 UAH</div>
+									<div class="product__price_old">120 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_sale">Sale</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product2.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Minimal iconic chair2</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">12000 UAH</div>
+									<div class="product__price_old">150000 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_sale">Sale</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product3.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Buskbo armchair2</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">130 UAH</div>
+									<div class="product__price_old">190 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="popular__tab-item carousel3 hide">
+							<div class="product">
+								<div class="product__label product__label_new">New</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product1.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Dining chairs3</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">100 UAH</div>
+									<div class="product__price_old">120 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_sale">Sale</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product2.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Minimal iconic chair3</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">12000 UAH</div>
+									<div class="product__price_old">150000 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<div class="product__label product__label_sale">Sale</div>
+								<div class="product__icons">
+									<div class="product__icon product__icon_compare">
+										<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="">
+									</div>
+									<div class="product__icon product__icon_favorite">
+										<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="">
+									</div>
+								</div>
+								<div class="product__image">
+									<a href="product.html" class="product__link">
+										<img src="catalog/view/theme/mebel/assets/images/product3.png" alt="">
+									</a>
+								</div>
+								<div class="product__description-top">
+									<div class="product__name">Chair</div>
+									<div class="product__articul">Код:02051</div>
+								</div>
+								<div class="product__title">
+									<a href="product.html" class="product__link">Buskbo armchair3</a>
+								</div>
+								<div class="product__price">
+									<div class="product__price_current">130 UAH</div>
+									<div class="product__price_old">190 UAH</div>
+								</div>
+								<div class="product__bottom">
+									<div class="product__bottom_group">
+										<span>Размер спального места 100см*100см*100см</span>
+										<span>Размер Ш*В*Д 100см*100см*100см</span>
+									</div>
+									<div class="product__bottom_group">
+										<div class="product__bottom_img">
+											<img src="catalog/view/theme/mebel/assets/images/Shop.png" alt="">
+										</div>
+										<span>В корзину</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="indiv">
+			<div class="container">
+				<div class="indiv__content">
+					<div class="indiv__info">
+						<div class="sectionTitle">Получите индивидуальное предложение!</div>
+						<div class="sectionTitle sectionTitle_mobile">Диван по индивидуальным размерам</div>
+						<div class="indiv__description">Мы всегда готовы предложить лучшую цену на весь ассортимент мебели “МебельТоп”</div>
+						<div class="indiv__description indiv__description_mobile">Мы можем изменить габаритные размеры дивана под нужные именно вам</div>
+						<form action="#" class="indiv__form" method="get">
+							<input type="tel" class="indiv__input" placeholder="Ваш телефон">
+							<button class="custom-button">Получить скидку</button>
+							<button class="custom-button custom-button_mobile">Рассчитать</button>
+						</form>
+						<div class="indiv__agree">Отправляя эту форму, вы даете согласие на обработку персональных данных</div>
+					</div>
+					<div class="indiv__image">
+						<img src="catalog/view/theme/mebel/assets/images/sofa.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="benefits">
+			<div class="container">
+				<div class="sectionTitle">Наши преимущества</div>
+				<div class="benefits__content">
+					<ul class="benefits__list">
+						<li class="benefits__item">
+							<div class="benefits__top">
+								<div class="benefits__count">1</div>
+								<div class="benefits__title">Самые низкие цены</div>
+							</div>
+							<div class="benefits__description">Почему выбирают нас? Потому что мы прямые производители, никаких посредников. Диван со склада в Полтаве по ценам производителя всегда будет намного дешевле чем в магазинах посредников, которые по мимо своей накрутки платят еще огромные сумы за аренду торговых помещений.</div>
+						</li>
+						<li class="benefits__item">
+							<div class="benefits__top">
+								<div class="benefits__count">2</div>
+								<div class="benefits__title">Мы экономим ваше время</div>
+							</div>
+							<div class="benefits__description">Покупая диван у нас на сайте Вы не выходя из дома или офиса имеете возможность посмотреть более 50 видов диванов и 30 видов оббивок тканей.Наши специалисты предоставят квалифицированную консультацию по телефону.</div>
+						</li>
+						<li class="benefits__item">
+							<div class="benefits__top">
+								<div class="benefits__count">3</div>
+								<div class="benefits__title">Высокое качество материалов</div>
+							</div>
+							<div class="benefits__description">Каркасы всех диванов сделаны из натурального Сухого дерева (7 % влажности, брус 40-50мм). На все диваны ставится пенополиуретан   Гарантия: 3 года. Пружинный блок «Боннель» и «Змейка». Все ткани от 6-й, 7-й и выше категорий</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="geografic">
+			<div class="container">
+				<div class="sectionTitle">География деятельности</div>
+				<div class="geografic__content">
+					<ul class="geografic__info">
+						<li class="geografic__item">
+							<span class="geografic__circle"></span>
+							<span class="geografic__text">Представительство в 12 областях Украины</span>
+						</li>
+						<li class="geografic__item">
+							<span class="geografic__circle"></span>
+							<span class="geografic__text">Доставка по любую точку страны</span>
+						</li>
+						<li class="geografic__item">
+							<span class="geografic__circle"></span>
+							<span class="geografic__text">Выгодная доставка своим транспортом</span>
+						</li>
+						<li class="geografic__item">
+							<span class="geografic__circle"></span>
+							<span class="geografic__text">Сотрудничаем с почтовыми службами</span>
+						</li>
+					</ul>
+					<div class="geografic__map">
+						<img src="catalog/view/theme/mebel/assets/images/map.png" alt="map">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="news">
+			<div class="container">
+				<div class="sectionTitle">Новости</div>
+				<div class="news__content">
+					<ul class="news__list">
+						<li class="news__item">
+							<img src="catalog/view/theme/mebel/assets/images/news1.png" alt="">
+							<div class="news__info">
+								<div class="news__top">
+									<div class="news__category">
+										<img src="catalog/view/theme/mebel/assets/images/label.png" alt="">
+										<span>Категория</span>
+									</div>
+									<div class="news__date">23 Сентября 2022</div>
+								</div>
+								<div class="news__title">Название новости</div>
+								<a href="#" class="news__link">Читать далее</a>
+							</div>
+						</li>
+						<li class="news__item">
+							<img src="catalog/view/theme/mebel/assets/images/news1.png" alt="">
+							<div class="news__info">
+								<div class="news__top">
+									<div class="news__category">
+										<img src="catalog/view/theme/mebel/assets/images/label.png" alt="">
+										<span>Категория</span>
+									</div>
+									<div class="news__date">23 Сентября 2022</div>
+								</div>
+								<div class="news__title">Название новости</div>
+								<a href="#" class="news__link">Читать далее</a>
+							</div>
+						</li>
+						<li class="news__item">
+							<img src="catalog/view/theme/mebel/assets/images/news1.png" alt="">
+							<div class="news__info">
+								<div class="news__top">
+									<div class="news__category">
+										<img src="catalog/view/theme/mebel/assets/images/label.png" alt="">
+										<span>Категория</span>
+									</div>
+									<div class="news__date">23 Сентября 2022</div>
+								</div>
+								<div class="news__title">Название новости</div>
+								<a href="#" class="news__link">Читать далее</a>
+							</div>
+						</li>
+						<li class="news__item">
+							<img src="catalog/view/theme/mebel/assets/images/news1.png" alt="">
+							<div class="news__info">
+								<div class="news__top">
+									<div class="news__category">
+										<img src="catalog/view/theme/mebel/assets/images/label.png" alt="">
+										<span>Категория</span>
+									</div>
+									<div class="news__date">23 Сентября 2022</div>
+								</div>
+								<div class="news__title">Название новости</div>
+								<a href="#" class="news__link">Читать далее</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="news__list news__list_mobile">
+				<li class="news__item">
+					<img src="catalog/view/theme/mebel/assets/images/news1.png" alt="">
+					<div class="news__info">
+						<div class="news__top">
+							<div class="news__category">
+								<img src="catalog/view/theme/mebel/assets/images/label.png" alt="">
+								<span>Категория</span>
+							</div>
+							<div class="news__date">23 Сентября 2022</div>
+						</div>
+						<div class="news__title">Название новости</div>
+						<a href="#" class="news__link">Читать далее</a>
+					</div>
+				</li>
+				<li class="news__item">
+					<img src="catalog/view/theme/mebel/assets/images/news1.png" alt="">
+					<div class="news__info">
+						<div class="news__top">
+							<div class="news__category">
+								<img src="catalog/view/theme/mebel/assets/images/label.png" alt="">
+								<span>Категория</span>
+							</div>
+							<div class="news__date">23 Сентября 2022</div>
+						</div>
+						<div class="news__title">Название новости</div>
+						<a href="#" class="news__link">Читать далее</a>
+					</div>
+				</li>
+				<li class="news__item">
+					<img src="catalog/view/theme/mebel/assets/images/news1.png" alt="">
+					<div class="news__info">
+						<div class="news__top">
+							<div class="news__category">
+								<img src="catalog/view/theme/mebel/assets/images/label.png" alt="">
+								<span>Категория</span>
+							</div>
+							<div class="news__date">23 Сентября 2022</div>
+						</div>
+						<div class="news__title">Название новости</div>
+						<a href="#" class="news__link">Читать далее</a>
+					</div>
+				</li>
+				<li class="news__item">
+					<img src="catalog/view/theme/mebel/assets/images/news1.png" alt="">
+					<div class="news__info">
+						<div class="news__top">
+							<div class="news__category">
+								<img src="catalog/view/theme/mebel/assets/images/label.png" alt="">
+								<span>Категория</span>
+							</div>
+							<div class="news__date">23 Сентября 2022</div>
+						</div>
+						<div class="news__title">Название новости</div>
+						<a href="#" class="news__link">Читать далее</a>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section class="reviews">
+			<div class="container">
+				<div class="sectionTitle">Отзывы</div>
+				<div class="reviews__content">
+					<div class="reviews__wrapper">
+						<div class="reviews__nav">
+							<div class="reviews__nav_prev">
+								<img src="catalog/view/theme/mebel/assets/images/arrow.png" alt="prev">
+							</div>
+							<div class="reviews__nav_next">
+								<img src="catalog/view/theme/mebel/assets/images/arrow.png" alt="next">
+							</div>
+						</div>
+						<ul class="reviews__list">
+							<li class="reviews__item">
+								<div class="reviews__avatar">
+									<img src="catalog/view/theme/mebel/assets/images/avatar.png" alt="avatar">
+								</div>
+								<div class="reviews__title">Название товара</div>
+								<div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit deserunt dignissimos fugiat commodi sequi iste hic doloremque dolorum optio, veniam maiores sapiente velit reprehenderit aliquid recusandae, nobis ut minima?</div>
+								<div class="reviews__rating">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+								</div>
+							</li>
+							<li class="reviews__item">
+								<div class="reviews__avatar">
+									<img src="catalog/view/theme/mebel/assets/images/avatar.png" alt="avatar">
+								</div>
+								<div class="reviews__title">Название товара</div>
+								<div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit deserunt dignissimos fugiat commodi sequi iste hic doloremque dolorum optio, veniam maiores sapiente velit reprehenderit aliquid recusandae, nobis ut minima?</div>
+								<div class="reviews__rating">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+								</div>
+							</li>
+							<li class="reviews__item">
+								<div class="reviews__avatar">
+									<img src="catalog/view/theme/mebel/assets/images/avatar.png" alt="avatar">
+								</div>
+								<div class="reviews__title">Название товара</div>
+								<div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit deserunt dignissimos fugiat commodi sequi iste hic doloremque dolorum optio, veniam maiores sapiente velit reprehenderit aliquid recusandae, nobis ut minima?</div>
+								<div class="reviews__rating">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+								</div>
+							</li>
+							<li class="reviews__item">
+								<div class="reviews__avatar">
+									<img src="catalog/view/theme/mebel/assets/images/avatar.png" alt="avatar">
+								</div>
+								<div class="reviews__title">Название товара</div>
+								<div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit deserunt dignissimos fugiat commodi sequi iste hic doloremque dolorum optio, veniam maiores sapiente velit reprehenderit aliquid recusandae, nobis ut minima?</div>
+								<div class="reviews__rating">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+									<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<ul class="reviews__list reviews__list_mobile">
+				<li class="reviews__item">
+					<div class="reviews__avatar">
+						<img src="catalog/view/theme/mebel/assets/images/avatar.png" alt="avatar">
+					</div>
+					<div class="reviews__title">Название товара</div>
+					<div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit deserunt dignissimos fugiat commodi sequi iste hic doloremque dolorum optio, veniam maiores sapiente velit reprehenderit aliquid recusandae, nobis ut minima?</div>
+					<div class="reviews__rating">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+					</div>
+				</li>
+				<li class="reviews__item">
+					<div class="reviews__avatar">
+						<img src="catalog/view/theme/mebel/assets/images/avatar.png" alt="avatar">
+					</div>
+					<div class="reviews__title">Название товара</div>
+					<div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit deserunt dignissimos fugiat commodi sequi iste hic doloremque dolorum optio, veniam maiores sapiente velit reprehenderit aliquid recusandae, nobis ut minima?</div>
+					<div class="reviews__rating">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+					</div>
+				</li>
+				<li class="reviews__item">
+					<div class="reviews__avatar">
+						<img src="catalog/view/theme/mebel/assets/images/avatar.png" alt="avatar">
+					</div>
+					<div class="reviews__title">Название товара</div>
+					<div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit deserunt dignissimos fugiat commodi sequi iste hic doloremque dolorum optio, veniam maiores sapiente velit reprehenderit aliquid recusandae, nobis ut minima?</div>
+					<div class="reviews__rating">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+					</div>
+				</li>
+				<li class="reviews__item">
+					<div class="reviews__avatar">
+						<img src="catalog/view/theme/mebel/assets/images/avatar.png" alt="avatar">
+					</div>
+					<div class="reviews__title">Название товара</div>
+					<div class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque suscipit deserunt dignissimos fugiat commodi sequi iste hic doloremque dolorum optio, veniam maiores sapiente velit reprehenderit aliquid recusandae, nobis ut minima?</div>
+					<div class="reviews__rating">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+						<img src="catalog/view/theme/mebel/assets/images/star.png" alt="">
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section class="company">
+			<div class="container">
+				<div class="sectionTitle">О компании</div>
+				<div class="company__content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tooвk a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tooвk a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</div>
+			</div>
+		</section>
+		<section class="info">
+			<div class="container">
+				<div class="info__content">
+					<div class="logo info__logo">
+						<a href="index.html">
+							<img src="catalog/view/theme/mebel/assets/images/logo.png" alt="logo">
+						</a>
+					</div>
+					<div class="info__contacts">
+						<div class="header-middle__contacts">
+							<picture>
+								<source media="(max-width:768px)" srcset="images/headphone_mobile.png">
+								<img src="catalog/view/theme/mebel/assets/images/headphone.png" alt="">
+							</picture>
+							<div class="header-middle__tel">
+								<a href="tel:+380933838878">+380 93 38 388 78</a>
+								<a href="tel:+380933838878">+380 93 38 388 78</a>
+							</div>
+						</div>
+						<div class="info__social">
+							<a href="#">
+								<img src="catalog/view/theme/mebel/assets/images/facebook.png" alt="facebook">
+							</a>
+							<a href="#">
+								<img src="catalog/view/theme/mebel/assets/images/twitter.png" alt="twitter">
+							</a>
+							<a href="#">
+								<img src="catalog/view/theme/mebel/assets/images/instagram.png" alt="instagram">
+							</a>
+							<a href="#">
+								<img src="catalog/view/theme/mebel/assets/images/pinterest.png" alt="pinterest">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> #}
+{{ footer }}

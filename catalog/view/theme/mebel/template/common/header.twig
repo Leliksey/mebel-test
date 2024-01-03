@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="{{ direction }}" lang="{{ lang }}" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="{{ direction }}" lang="{{ lang }}" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+	<html
+	dir="{{ direction }}" lang="{{ lang }}"> <!--<![endif]-->
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>{{ title }}</title>
+		<base href="{{ base }}"/>
+		{% if description %}
+			<meta name="description" content="{{ description }}"/>
+		{% endif %}
+		{% if keywords %}
+			<meta name="keywords" content="{{ keywords }}"/>
+		{% endif %}
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+		<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+		<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="catalog/view/theme/mebel/assets/css/owlcarousel/owl.theme.default.min.css">
+		<link rel="stylesheet" href="catalog/view/theme/mebel/assets/css/owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="catalog/view/theme/mebel/assets/css/slick/slick-theme.css">
+		<link rel="stylesheet" href="catalog/view/theme/mebel/assets/css/slick/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@500;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="catalog/view/theme/mebel/assets/css/app.css">
+		{% for style in styles %}
+			<link href="{{ style.href }}" type="text/css" rel="{{ style.rel }}" media="{{ style.media }}"/>
+		{% endfor %}
+		{% for script in scripts %}
+			<script src="{{ script }}" type="text/javascript"></script>
+		{% endfor %}
+		<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+		{% for link in links %}
+			<link href="{{ link.href }}" rel="{{ link.rel }}"/>
+		{% endfor %}
+		{% for analytic in analytics %}
+			{{ analytic }}
+		{% endfor %}
+	</head>
+	<body>
+		<header class="header">
+			<div class="header-top">
+				<ul class="header__menu_mobile">
+					<li class="header__menu-item active">
+						<a href="about.html" class="header__menu-link">О нас</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Контакты</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Наши магазины</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Доставка</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Оплата</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Акции</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Гарантии</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link">Отзывы</a>
+					</li>
+				</ul>
+				<div class="container">
+					<div class="header-top__content">
+						<ul class="header__menu">
+							<li class="header__menu-item">
+								<a href="about.html" class="header__menu-link">О нас</a>
+							</li>
+							<li class="header__menu-item">
+								<a href="#" class="header__menu-link">Контакты</a>
+							</li>
+							<li class="header__menu-item">
+								<a href="#" class="header__menu-link">Наши магазины</a>
+							</li>
+							<li class="header__menu-item">
+								<a href="#" class="header__menu-link">Доставка</a>
+							</li>
+							<li class="header__menu-item">
+								<a href="#" class="header__menu-link">Оплата</a>
+							</li>
+							<li class="header__menu-item">
+								<a href="#" class="header__menu-link">Акции</a>
+							</li>
+							<li class="header__menu-item">
+								<a href="#" class="header__menu-link">Гарантии</a>
+							</li>
+							<li class="header__menu-item">
+								<a href="#" class="header__menu-link">Отзывы</a>
+							</li>
+						</ul>
+						<div class="header__burger">
+							<img src="catalog/view/theme/mebel/assets/images/burger.png" alt="menu" class="">
+							<img src="catalog/view/theme/mebel/assets/images/close.png" alt="close" class="hide">
+						</div>
+						<div class="header__setting">
+							<div class="header__setting-location">
+								<span>Ваш город:
+								</span>
+								<select name="location" id="location">
+									<option value="Запоріжжя">Запоріжжя</option>
+									<option value="Киев">Киев</option>
+								</select>
+							</div>
+							<div class="header__setting-lang">
+								{{ language }}
+							</div>
+						</div>
+						<ul class="header__icons">
+							<input type="text">
+							<li class="header__item header__item-search">
+								<a href="#" class="header__link">
+									<img src="catalog/view/theme/mebel/assets/images/search.png" alt="search">
+								</a>
+							</li>
+							<li class="header__item">
+								<a href="#" class="header__link">
+									<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="search">
+								</a>
+							</li>
+							<li class="header__item">
+								<a href="#" class="header__link">
+									<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="search">
+								</a>
+							</li>
+							<li class="header__item">
+								<a href="#" class="header__link">
+									<img src="catalog/view/theme/mebel/assets/images/basket.png" alt="search">
+								</a>
+								<div class="header__count">4</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-middle">
+				<div class="container">
+					<div class="header-middle__content">
+          {% if logo %}
+						<a href="{{ home }}" class="logo header__logo">
+							<img src="{{ logo }}" alt="logo" title="{{ name }}" alt="{{ name }}">
+						</a>
+            {% else %}
+            <h1><a href="{{ home }}">{{ name }}</a></h1>
+            {% endif %}
+						<div class="header-middle__right">
+							<div class="header-middle__contacts">
+								<picture>
+									<source media="(max-width:768px)" srcset="images/headphone_mobile.png">
+									<img src="catalog/view/theme/mebel/assets/images/headphone.png" alt="">
+								</picture>
+
+								<div class="header-middle__tel">
+									<a href="tel:{{ telephone }}">{{ telephone }}</a>
+									<a href="tel:+380933838878">+380 93 38 388 78</a>
+								</div>
+							</div>
+							<div class="custom-button header-middle__custom-button popup__button popup__button_manager">Перезвонить вам?</div>
+							<div class="header-middle__search">
+								<input type="text" class="input header-middle__input" placeholder="Поиск">
+								<div class="header-middle__input-icon">
+									<img src="catalog/view/theme/mebel/assets/images/search.png" alt="search">
+								</div>
+							</div>
+							<div class="header-middle__icons">
+								<ul class="header__icons">
+									<li class="header__item">
+										<a href="#" class="header__link">
+											<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="search">
+										</a>
+									</li>
+									<li class="header__item">
+										<a href="#" class="header__link">
+											<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="search">
+										</a>
+									</li>
+									<li class="header__item">
+										<a href="#" class="header__link">
+											<img src="catalog/view/theme/mebel/assets/images/basket.png" alt="search">
+										</a>
+										<div class="header__count">4</div>
+									</li>
+								</ul>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<div class="header-bottom__content">
+						<div class="header-bottom__catalog__button">
+							<button class="custom-button header-bottom__custom-button" type="button">
+								<img src="catalog/view/theme/mebel/assets/images/burger.png" alt="">
+								<span>КАТАЛОГ ТОВАРОВ</span>
+							</button>
+							<ul class="header-bottom__catalog">
+                {{ menu }}
+							</ul>
+						</div>
+						<div class="header-bottom__category-group">
+							<ul class="header-bottom__category">
+								{# <li class="header-bottom__category-item">
+									<a href="#" class="header-bottom__category-link">
+										<img src="catalog/view/theme/mebel/assets/images/category1.png" alt="">
+										<span>Диваны</span>
+									</a>
+								</li> #}
+                {{ menu }}
+							</ul>
+							<div class="header-bottom__category-button">
+								<img src="catalog/view/theme/mebel/assets/images/arrow.png" alt="next">
+								<span>Далее</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
