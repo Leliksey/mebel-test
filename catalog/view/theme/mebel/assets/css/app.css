@@ -1140,6 +1140,7 @@ select::-ms-expand {
   line-height: 42px;
   color: #2f2f2f;
   margin-top: 13px;
+  max-width: 52%;
 }
 @media (max-width: 1300px) {
   .banners__slider1__title {

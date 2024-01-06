@@ -61,6 +61,7 @@
               <table id="images{{ language.language_id }}" class="table table-striped table-bordered table-hover">
                 <thead>
                   <tr>
+                    <td class="text-left">{{ entry_title2 }}</td>
                     <td class="text-left">{{ entry_title }}</td>
                     <td class="text-left">{{ entry_link }}</td>
                     <td class="text-center">{{ entry_image }}</td>
@@ -72,6 +73,10 @@
                   {% if banner_images[language.language_id] %}
                   {% for banner_image in banner_images[language.language_id] %}
                   <tr id="image-row{{ image_row }}">
+                    <td class="text-left"><input type="text" name="banner_image[{{ language.language_id }}][{{ image_row }}][title2]" value="{{ banner_image.title2 }}" placeholder="{{ entry_title2 }}" class="form-control" />
+                      {% if error_banner_image[language.language_id][image_row] %}
+                      <div class="text-danger">{{ error_banner_image[language.language_id][image_row] }}</div>
+                      {% endif %}</td>
                     <td class="text-left"><input type="text" name="banner_image[{{ language.language_id }}][{{ image_row }}][title]" value="{{ banner_image.title }}" placeholder="{{ entry_title }}" class="form-control" />
                       {% if error_banner_image[language.language_id][image_row] %}
                       <div class="text-danger">{{ error_banner_image[language.language_id][image_row] }}</div>

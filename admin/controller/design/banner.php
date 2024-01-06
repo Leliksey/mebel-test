@@ -7,7 +7,7 @@ class ControllerDesignBanner extends Controller {
 
 		$this->document->setTitle($this->language->get('heading_title'));
 
-		$this->load->model('design/banner');
+		$this->load->model('design/banner'); 
 
 		$this->getList();
 	}
@@ -349,6 +349,7 @@ class ControllerDesignBanner extends Controller {
 				}
 
 				$data['banner_images'][$key][] = array(
+					'title2'      => $banner_image['title2'],
 					'title'      => $banner_image['title'],
 					'link'       => $banner_image['link'],
 					'image'      => $image,

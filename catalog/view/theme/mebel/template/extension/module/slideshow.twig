@@ -1,0 +1,107 @@
+
+<section class="main">
+				<div class="main__content">
+					<div class="main__action hide">
+						<button class="button main__action-button main__action-button_green">
+							<img src="catalog/view/theme/mebel/assets/images/phone.png" alt="">
+							<span>Позвонить</span>
+						</button>
+						<button class="button main__action-button main__action-button_violet">
+							<img src="catalog/view/theme/mebel/assets/images/viber.png" alt="">
+							<span>Viber - чат</span>
+						</button>
+					</div>
+					<div class="banners__top">
+						<div class="banners__slider owl-carousel">
+                            {% for banner in banners %}
+							<div class="banners__item banners__slider1">
+								<div class="banners__slider1__subtitle">{{ banner.title2 }}</div>
+								<div class="banners__slider1__title">{{ banner.title }}</div>
+								<div class="banners__slider1__image">
+									<img src="catalog/view/theme/mebel/assets/images/ground.png" alt="">
+								</div>
+								<div class="banners__slider1__text">Скидка на линейку кухонь 2022 года</div>
+                                {% if banner.link %}
+								<a href="{{ banner.link }}" class="custom-button main__custom-button">Купить</a>
+                                {% endif %}
+								<img src="{{ banner.image }}" alt="" class="slider1_bg">
+							</div>
+                            {% endfor %}
+
+						</div>
+						<div class="banners__static">
+							<div class="banners__static_mask">
+								<img src="catalog/view/theme/mebel/assets/images/mask.png" alt="">
+								<div class="banners__static_info">
+									<span>под</span>
+									<span>0</span>
+									<span>%</span>
+								</div>
+							</div>
+							<div class="banners__static_title">Рассрочка</div>
+							<div class="banners__static_image">
+								<img src="catalog/view/theme/mebel/assets/images/ground.png" alt="">
+							</div>
+							<button class="custom-button banners__static__custom-button">
+								Подробнее
+							</button>
+						</div>
+					</div>
+					<div class="main__example hide">
+						<ul class="main__example-list">
+							<li class="main__example-item">
+								<a href="" class="main__example-link">
+									<img src="catalog/view/theme/mebel/assets/images/tkan.png" alt="">
+									<span>Образцы тканей</span>
+								</a>
+							</li>
+							<li class="main__example-item">
+								<a href="" class="main__example-link">
+									<img src="catalog/view/theme/mebel/assets/images/material.png" alt="">
+									<span>Образцы материалов</span>
+								</a>
+							</li>
+							<li class="main__example-item">
+								<a href="" class="main__example-link">
+									<img src="catalog/view/theme/mebel/assets/images/napolnitel.png" alt="">
+									<span>Образцы наполнителя</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			<div class="main__bottom_mobile hide">
+				<div class="main__bottom_mobile-title">Рассрочка платежей на весь ассортимент</div>
+				<div class="banners__static_info">
+					<span>под</span>
+					<span>0</span>
+					<span>%</span>
+				</div>
+			</div>
+		</section>
+{# <div class="slideshow swiper-viewport">
+  <div id="slideshow{{ module }}" class="swiper-container">
+    <div class="swiper-wrapper"> {% for banner in banners %}
+      <div class="swiper-slide text-center">{% if banner.link %}<a href="{{ banner.link }}"><img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-responsive" /></a>{% else %}<img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-responsive" />{% endif %}</div>
+      {% endfor %} </div>
+  </div>
+  <div class="swiper-pagination slideshow{{ module }}"></div>
+  <div class="swiper-pager">
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<script type="text/javascript"><!--
+$('#slideshow{{ module }}').swiper({
+	mode: 'horizontal',
+	slidesPerView: 1,
+	pagination: '.slideshow{{ module }}',
+	paginationClickable: true,
+	nextButton: '.slideshow .swiper-button-next',
+    prevButton: '.slideshow .swiper-button-prev',
+    spaceBetween: 30,
+	autoplay: 2500,
+    autoplayDisableOnInteraction: true,
+	loop: true
+});
+//--></script> #}

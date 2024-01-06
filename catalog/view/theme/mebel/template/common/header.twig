@@ -38,7 +38,6 @@
 		{% for script in scripts %}
 			<script src="{{ script }}" type="text/javascript"></script>
 		{% endfor %}
-		<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 		{% for link in links %}
 			<link href="{{ link.href }}" rel="{{ link.rel }}"/>
 		{% endfor %}
@@ -123,26 +122,27 @@
 						<ul class="header__icons">
 							<input type="text">
 							<li class="header__item header__item-search">
-								<a href="#" class="header__link">
+								<button type="button" class="header__link">
 									<img src="catalog/view/theme/mebel/assets/images/search.png" alt="search">
-								</a>
+								</button>
 							</li>
 							<li class="header__item">
-								<a href="#" class="header__link">
+								<button type="button" class="header__link">
 									<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="search">
-								</a>
+								</button>
 							</li>
 							<li class="header__item">
-								<a href="#" class="header__link">
+								<button type="button" class="header__link">
 									<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="search">
-								</a>
+								</button>
 							</li>
-							<li class="header__item">
-								<a href="#" class="header__link">
+							{# <li class="header__item" data-toggle="modal" data-target="#modal-cart">
+								<button type="button" class="header__link">
 									<img src="catalog/view/theme/mebel/assets/images/basket.png" alt="search">
-								</a>
+								</button>
 								<div class="header__count">4</div>
-							</li>
+							</li> #}
+							
 						</ul>
 					</div>
 				</div>
@@ -166,7 +166,7 @@
 
 								<div class="header-middle__tel">
 									<a href="tel:{{ telephone }}">{{ telephone }}</a>
-									<a href="tel:+380933838878">+380 93 38 388 78</a>
+									<a href="tel:{{ telephone2 }}">{{ telephone2 }}</a>
 								</div>
 							</div>
 							<div class="custom-button header-middle__custom-button popup__button popup__button_manager">Перезвонить вам?</div>
@@ -179,21 +179,17 @@
 							<div class="header-middle__icons">
 								<ul class="header__icons">
 									<li class="header__item">
-										<a href="#" class="header__link">
+										<button type="button" class="header__link">
 											<img src="catalog/view/theme/mebel/assets/images/compare.png" alt="search">
-										</a>
+										</button>
 									</li>
 									<li class="header__item">
-										<a href="#" class="header__link">
+										<button type="button" class="header__link">
 											<img src="catalog/view/theme/mebel/assets/images/favorite.png" alt="search">
-										</a>
+										</button>
 									</li>
-									<li class="header__item">
-										<a href="#" class="header__link">
-											<img src="catalog/view/theme/mebel/assets/images/basket.png" alt="search">
-										</a>
-										<div class="header__count">4</div>
-									</li>
+									{{ cart }}
+									
 								</ul>
 							</div>
 

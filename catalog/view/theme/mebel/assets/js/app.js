@@ -10,7 +10,7 @@ window.onload = function() {
   });
 };
 
-$( window ).resize(function() {
+$( window ).resize(function() { 
   if ($(window).width() > 768) {
       
   }

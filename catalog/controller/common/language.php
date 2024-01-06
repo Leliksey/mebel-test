@@ -23,7 +23,13 @@ class ControllerCommonLanguage extends Controller {
 		}
 
 		if (!isset($this->request->get['route'])) {
-			$data['redirect'] = $this->url->link('common/home');
+			// $data['redirect'] = $this->url->link('common/home');
+			if ($this->request->server['HTTPS']) {
+				$server = $this->config->get('config_ssl');
+			 } else {
+				$server = $this->config->get('config_url');
+				}
+				$data['redirect'] = $server;
 		} else {
 			$url_data = $this->request->get;
 
