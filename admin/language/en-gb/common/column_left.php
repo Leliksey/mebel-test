@@ -2,7 +2,7 @@
 // Text
 $_['text_api']                  = 'API';
 $_['text_attribute']            = 'Attributes';
-$_['text_attribute_group']      = 'Attribute Groups';
+$_['text_attribute_group']      = 'Attribute Groups'; 
 $_['text_backup']               = 'Backup / Restore';
 $_['text_banner']               = 'Banners';
 $_['text_catalog']              = 'Catalog';
@@ -74,3 +74,4 @@ $_['text_order_recurring']      = 'Recurring Orders';
 $_['text_complete_status']      = 'Orders Completed';
 $_['text_processing_status']    = 'Orders Processing';
 $_['text_other_status']         = 'Other Statuses';
+$_['text_ctmenu']               = 'Menu';

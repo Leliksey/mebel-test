@@ -2,7 +2,7 @@
 // Text
 $_['text_api']                  = 'API';
 $_['text_attribute']            = 'Атрибуты';
-$_['text_attribute_group']      = 'Группы атрибутов';
+$_['text_attribute_group']      = 'Группы атрибутов'; 
 $_['text_backup']               = 'Бэкап / Восстановление';
 $_['text_banner']               = 'Баннеры';
 $_['text_catalog']              = 'Каталог';
@@ -88,5 +88,6 @@ $_['text_paypal_search']        = 'Поиск транзакции';
 $_['text_complete_status']      = 'Заказы завершенные';
 $_['text_processing_status']    = 'Заказы в процессе';
 $_['text_other_status']         = 'Остальные заказы';
+$_['text_ctmenu']               = 'Меню';
 
 
