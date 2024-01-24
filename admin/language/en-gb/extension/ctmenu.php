@@ -2,6 +2,8 @@
 // Heading
 $_['heading_title']          = 'Menu';
 $_['entry_title']            = 'Name';
+$_['entry_link']             = 'Link';
+$_['entry_root']             = 'Root element';
 // Text
 $_['text_success']           = 'Success: You have modified categories!';
 $_['text_list']              = 'Category List';

@@ -2,6 +2,8 @@
 // Heading
 $_['heading_title']          = 'Меню';
 $_['entry_title']            = 'Название';
+$_['entry_link']            = 'Ссылка';
+$_['entry_root']             = 'Корневой элемент';
 
 // Text
 $_['text_success']           = 'Настройки успешно изменены!';
