@@ -747,3 +747,22 @@
 2024-01-24 23:06:23 - PHP Warning:  A non-numeric value encountered in F:\OSPanel\domains\mebel\system\storage\cache\template\35\3569e3cadfaa7ed5a52aa1be78730f8534b1f3a26a0f9dbf3e854176fafeb790.php on line 923
 2024-01-24 23:06:23 - PHP Warning:  A non-numeric value encountered in F:\OSPanel\domains\mebel\system\storage\cache\template\35\3569e3cadfaa7ed5a52aa1be78730f8534b1f3a26a0f9dbf3e854176fafeb790.php on line 923
 2024-01-25 2:06:31 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-25 11:41:57 - PHP Warning:  unlink(F:/OSPanel/domains/mebel/system/storage/cache/cache.ctmenu_5_2_39f54894fb66e767b14cbd3da69dbd11.1706139650): No such file or directory in F:\OSPanel\domains\mebel\system\library\cache\file.php on line 17
+2024-01-25 11:41:58 - PHP Notice:  Undefined index: account in F:\OSPanel\domains\mebel\catalog\controller\extension\module\custom\customer.php on line 123
+2024-01-25 11:41:59 - PHP Notice:  Undefined index: account in F:\OSPanel\domains\mebel\catalog\controller\extension\module\custom\customer.php on line 123
+2024-01-25 13:20:51 - PHP Notice:  Undefined index: account in F:\OSPanel\domains\mebel\catalog\controller\extension\module\custom\customer.php on line 123
+2024-01-25 13:20:52 - PHP Notice:  Undefined index: account in F:\OSPanel\domains\mebel\catalog\controller\extension\module\custom\customer.php on line 123
+2024-01-27 9:20:19 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 12:21:53 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 9:23:53 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 9:25:26 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 9:25:51 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 9:26:00 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 9:37:42 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 9:39:42 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 10:17:00 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 10:21:15 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 10:29:37 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 10:32:45 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 10:34:04 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35
+2024-01-27 10:34:35 - PHP Notice:  Undefined variable: server in F:\OSPanel\domains\mebel\catalog\controller\common\footer.php on line 35

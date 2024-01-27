@@ -1614,7 +1614,7 @@ select::-ms-expand {
 }
 
 .products__popular {
-  max-width: 890px;
+  /* max-width: 890px; */
   margin: 0 -10px;
 }
 @media (max-width: 768px) {

@@ -435,7 +435,7 @@ $('.popular__tab-item').owlCarousel({
             items:2
         },
         576:{
-            items:3
+            items:4
         }
     }
 });
